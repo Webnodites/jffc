@@ -8456,7 +8456,7 @@ h1, h2, h3, h4, h5,
           font-size: 80px;
           color: #2c65af;
           font-weight: normal;
-          font-family: 'Bookman old style', sans-serif;
+          font-family: "Great Vibes", cursive;
           margin-bottom: 0;
           line-height: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -9236,13 +9236,13 @@ textarea.form-control {
     left: 0;
     right: 0;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 100px;
     display: block;
     margin-bottom: 0;
     color: rgba(0, 0, 0, 0.2);
     color: #2c65af;
     line-height: 1;
-    font-family: "Bookman old style", cursive;
+    font-family: "Great Vibes", cursive;
     margin-top: 0;
     z-index: -1; }
     @media (max-width: 767.98px) {
