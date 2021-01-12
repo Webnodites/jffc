@@ -8143,10 +8143,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #2c65af; }
+  color: #fff; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #2c65af;
+    color: #9c9c9c;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8800,7 +8800,7 @@ h1, h2, h3, h4, h5,
         border-color: #2c65af transparent transparent transparent;
         opacity: 0; }
       .ftco-search .nav-pills .nav-link:hover {
-        background: #c09d6c;
+        background: #2c65af;
         color: #fff; }
       .ftco-search .nav-pills .nav-link.active {
         color: #fff;
@@ -9783,3 +9783,6 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+ 
