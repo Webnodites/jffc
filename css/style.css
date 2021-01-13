@@ -8345,7 +8345,10 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 20px; }
+      font-size: 30px;
+    line-height: 1; 
+    
+  }
 
 .hero-wrap {
   width: 100%;
@@ -8368,17 +8371,29 @@ h1, h2, h3, h4, h5,
     opacity: .5;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
-    height: 450px; }
+    height: 375px;
+     }
     .hero-wrap.hero-wrap-2 .slider-text {
-      height: 450px; }
+      height: 350px; 
+    }
+    @media (max-width: 767px) {
+       .hero-wrap.hero-wrap-2 {
+    height: 250px;
+     }
+    .hero-wrap.hero-wrap-2 .slider-text {
+      height: 250px; 
+    }
+    }
       .hero-wrap.hero-wrap-2 .slider-text .bread {
         font-weight: 900;
         color: #fff;
-        font-size: 50px; }
+        font-size: 50px; 
+      }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
         font-size: 13px;
-        letter-spacing: 1px; }
+        letter-spacing: 1px; 
+      }
         .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs span {
           color: #fff;
           border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
@@ -8693,7 +8708,14 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 767.98px) {
   .img-2 {
-    height: 700px; } }
+    height: 300px; }
+    .img-1 {
+    height: 300px; 
+    margin-bottom: 10px;
+
+  }
+
+     }
 
 .video {
   width: 100%;
@@ -9026,6 +9048,7 @@ h1, h2, h3, h4, h5,
       border: 1px solid #2c65af;
       text-align: center;
       display: inline-block;
+          color: #2c65af;
       width: 40px;
       height: 40px;
       line-height: 40px;
@@ -9250,12 +9273,12 @@ textarea.form-control {
         font-size: 65px;
         top: -55px; } }
   .heading-section h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 900;
     line-height: 1.2; }
     @media (max-width: 767.98px) {
       .heading-section h2 {
-        font-size: 40px; } }
+        font-size: 35px; } }
   .heading-section.heading-section-white .subheading {
     color: rgba(255, 255, 255, 0.7); }
   .heading-section.heading-section-white h2 {
@@ -9784,5 +9807,11 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-
- 
+.map{
+  width: 100%;
+ }
+ @media (max-width: 767px){
+  .map iframe{
+  height: 300px;
+}
+ }
