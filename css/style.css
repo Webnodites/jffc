@@ -8347,7 +8347,7 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
       font-size: 30px;
     line-height: 1; 
-    
+
   }
 
 .hero-wrap {
@@ -9815,3 +9815,10 @@ textarea.form-control {
   height: 300px;
 }
  }
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: auto !important;
+    touch-action: auto !important;
+    -webkit-user-select: auto !important;
+     user-select: auto !important; 
+}
