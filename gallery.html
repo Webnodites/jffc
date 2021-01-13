@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
   </head>
   <body>
     <div class="py-1 bg-black top">
@@ -88,7 +89,7 @@
 				<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a  href="images/image_1.jpg" data-fancybox="images"  class="block-20" style="background-image: url('images/image_1.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -105,7 +106,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
+              <a href="images/image_6.jpg" data-fancybox="images" class="block-20" style="background-image: url('images/image_6.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -122,7 +123,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="images/image_3.jpg" data-fancybox="images" class="block-20" style="background-image: url('images/image_3.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -139,7 +140,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="images/image_1.jpg" data-fancybox="images" class="block-20" style="background-image: url('images/image_1.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -156,7 +157,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="images/image_3.jpg" data-fancybox="images" class="block-20" style="background-image: url('images/image_3.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -173,7 +174,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
+              <a href="images/image_6.jpg" data-fancybox="images" class="block-20" style="background-image: url('images/image_6.jpg');">
               </a>
               <!-- <div class="text pt-3 pb-4 px-4">
                 <div class="meta">
@@ -287,6 +288,16 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+    <!-- <script type="text/javascript" src="js/jquery.fancybox.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
     
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
   </body>
 </html>

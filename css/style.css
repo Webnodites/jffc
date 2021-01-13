@@ -9001,7 +9001,9 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   height: 300px;
   position: relative;
-  display: block; }
+  display: block; 
+  cursor: zoom-in;
+}
 
 .blog-entry {
   background: #fff; }
