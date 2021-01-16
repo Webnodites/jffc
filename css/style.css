@@ -9836,3 +9836,35 @@ textarea.form-control {
     -webkit-user-select: auto !important;
      user-select: auto !important; 
 }
+.menus{
+  padding:0 40px;
+}
+.menus h2{
+color: #2c65af;    
+font-size: 25px;
+    text-decoration: underline;
+}
+.menus .mdv{
+justify-content: space-between;
+}
+.menus .mname{
+    font-size: 20px;
+}
+.menus .mprice{
+color: #2c65af;
+font-size: 20px;
+}
+@media (max-width: 767px){
+  .menus{
+  padding:0 10px;
+}
+.menus .mname{
+font-size: 16px;
+}
+.menus .mprice{
+font-size: 16px;
+}
+.menus h2{   
+font-size: 20px;
+}
+}
