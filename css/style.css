@@ -8387,7 +8387,8 @@ h1, h2, h3, h4, h5,
       .hero-wrap.hero-wrap-2 .slider-text .bread {
         font-weight: 900;
         color: #fff;
-        font-size: 50px; 
+        font-size: 60px; 
+        font-family: "Great Vibes", cursive;
       }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
@@ -9087,8 +9088,14 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 3em 0;
+  padding: 8em 0;
   position: relative; }
+
+  @media (max-width: 767px){
+    .ftco-section {
+  padding: 5em 0;
+  position: relative; }
+  }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -9231,7 +9238,9 @@ textarea.form-control {
 }
   @media (max-width: 767.98px) {
     .map {
-      height: 300px; } }
+      height: 300px;
+       } 
+    }
 
 @-webkit-keyframes pulse {
   0% {
@@ -9420,7 +9429,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -9449,7 +9458,7 @@ textarea.form-control {
     z-index: -1;
     opacity: 0;
     background: #000000; }
-
+  
 .ftco-counter {
   padding-bottom: 5em; }
   @media (max-width: 1199.98px) {
@@ -9550,7 +9559,8 @@ textarea.form-control {
   border-radius: 4px;
   color: #000000;
   border: 1px solid #ccc;
-  font-size: 11px; }
+  font-size: 11px; 
+}
   .tagcloud a:hover {
     border: 1px solid #000; }
 
